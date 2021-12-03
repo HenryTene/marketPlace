@@ -23,7 +23,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  width:120px;
+  width: auto;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -40,6 +40,7 @@ body{
 .topnav a.active {
   background-color: #2196F3;
   color: white;
+  margin-left: 600px;
 }
  
 .topnav .login-container {
