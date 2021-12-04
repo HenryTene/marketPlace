@@ -5,30 +5,33 @@
 .Shopping-online5 { color: #A6554E; }
 
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
 
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial;
     text-transform: uppercase;
     font-weight: bold;
+    background: #D9CCB4;
 }
 .topnav {
   overflow: hidden;
-  background-color: #2f3a4a;
+  background-color: #141640;
   line-height: 40px;
 }
  
 .topnav a {
   float: left;
   display: block;
-  width: auto;
+  width: 200px;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   color:#fff;
 }
  
@@ -38,9 +41,9 @@ body{
 }
  
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: #008CBA;
   color: white;
-  margin-left: 600px;
+  margin-left: 450px;
 }
  
 .topnav .login-container {
@@ -53,7 +56,7 @@ body{
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 15px;
   border: none;
   width: 150px; 
 }
@@ -62,15 +65,39 @@ body{
 .topnav .login-container button {
   float: right;
   padding: 6px;
-  margin-top: 8px;
+  margin-top: 5px;
   margin-right: 16px;
-  background: #2196F3;
+  height: 40px;
+  width: auto;
+  background: #008CBA;
   color:#fff;
-  font-size: 17px;
+  font-size: 15px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
 }
  
 .topnav .login-container button:hover {
   background: #ccc;
 }
+
+.login-avatar {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.logo {
+  float: left;
+  display: block;
+  margin-top: 5px;
+  margin-left: 40px;
+  height: 60px;
+  width: auto;
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
+}
+
