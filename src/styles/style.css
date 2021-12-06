@@ -54,12 +54,32 @@ body{
   float: right;
   margin-right: 40px;
   margin-top: 10px;
+  display: flex;
+  flex-direction: row;
 }
- 
+
 .topnav .login-container button {
   float: right;
   padding: 6px;
-  margin-top: 5px;
+  margin: 5px;
+  height: 40px;
+  width: auto;
+  background: #008CBA;
+  color:#fff;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+}
+
+.topnav .login-container button:hover {
+  background: #ccc;
+}
+ 
+.topnav .login-container form input {
+  float: right;
+  padding: 6px;
+  margin: 5px;
   height: 40px;
   width: auto;
   background: #008CBA;
@@ -70,7 +90,7 @@ body{
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
 }
  
-.topnav .login-container button:hover {
+.topnav .login-container form input:hover {
   background: #ccc;
 }
 
